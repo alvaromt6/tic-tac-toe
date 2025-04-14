@@ -1,12 +1,33 @@
-# React + Vite
+## 🎮 Tic Tac Toe (Tres en Raya)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://tic-tac-toe-swart-mu-97.vercel.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Captura](public/tictactoeIcon.webp)
 
-## Expanding the ESLint configuration
+## ✨ Descripción
+Juego clásico de Tres en Raya desarrollado con **React** por **Álvaro Macías Tirado** como proyecto. Incluye persistencia de partidas, animaciones al ganar y diseño responsive.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Características destacadas
+- ✅ **Interfaz intuitiva** con iconos de ❌ (X) y ⚪ (O)
+- 🏆 **Detección inteligente** de victorias (8 combinaciones posibles)
+- 💾 **Auto-guardado** en localStorage (no pierdes la partida al recargar)
+- 🎉 **Efectos de confeti** al ganar 
+- 📱 **Totalmente responsive** (funciona en móvil, tablet y desktop)
+- 🔄 **Botón de reinicio** para empezar nuevas partidas
+
+
+## 📦 Instalación local
+1. Clona el repositorio:
+```bash
+git clone https://github.com/tu-usuario/tic-tac-toe.git
+```
+Instala dependencias:
+```bash
+npm install
+```
+Inicia la aplicación:
+```bash
+npm run dev
+```
+
